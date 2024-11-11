@@ -1,6 +1,7 @@
-![Sereniteen logo]([https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png](https://drive.google.com/file/d/111R2sJO8jjdrU7eziaFFH6tPMoJNxA1I/view?usp=sharing))
+# Project 1: Individual Project: Sereniteen - Teenage Anxiety Guide <a id="top"/>
 
-# Sereniteen <a id="top"/>
+![logo](https://github.com/user-attachments/assets/8c012545-402a-447f-a8b8-ba7bd7dc000d)
+
 ## Introduction
 Sereniteen is the first HTML/CSS/Bootstrap website that I built as part of my first individual project on the AI-Augmented Full-Stack Bootcamp course at the Code Institute. Its aim is to help site users to understand what anxiety is, how it may affect teenagers, and provide basic guidance and links to resources and professional help.
 
@@ -94,10 +95,11 @@ Challenges:
         * Ensuring she provides accurate and helpful support without overstepping boundaries.
 
 ### User Stories
-Content of the subheading 3
+User Stories and the associated Acceptance Criteria and Tasks were generated using Microsoft Copilot. These were then reviewed and edited to be SMART and focused for the delivery of an MVP. A Project Board was set up in GitHub Projects to track project progress, and the user stories were prioritised using MoSoCoW.
 
 ### Wireframes
-Content of the subheading 3
+![wf-mobile](https://github.com/user-attachments/assets/948fcc3b-2e8d-4c7d-93cd-90d72806eb5d)
+![wf-browser](https://github.com/user-attachments/assets/84f15a5d-8d09-4f55-bb15-49d03aedbe05)
 
 [Back to top](#top)
 ## Design
@@ -114,14 +116,17 @@ Content of the subheading 3
 ### Nav bar
 Home, Getting Help, Resources, Contact Us
 ### Hero Section
-### Bootstrap Cards
+### Bootstrap Accordian
 - what is Anxiety, Common Symptoms, Why am I anxious?
 - Stressors: Social Media, Exams, Peer Pressure
+### Bootstrap Cards
 - Coping Strategies, Activities
 - Online Resources, Self-Help Apps, Organisation
 ### Videos
 ### Bootstrap Carousel
 short stories
+### Bootstrap Toggle button
+To switch between the two colour schemes
 
 ### Getting Help
 #### Types of Professional Help
