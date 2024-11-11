@@ -1,17 +1,16 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Gloria+Hallelujah&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* CSS Variables */
 :root {
-    --hero-font: 'Gloria Hallelujah', serif;
-    --primary-font: 'Funnel Sans', sans-serif;
+    --primary-font: 'Gloria Hallelujah', serif;
     --secondary-font: 'Open Sans', sans-serif;
     --primary-color: #fff7ef; /* off white */
     --secondary-color: #402e32; /* dark brown */
     --highlight-color: #ef8a01; /* orange */
     --light-highlight-color: #e66c4e; /* salmon */
-    --bright-background-color1: #ef5d8b; /* hot pink */
-     --bright-background-color2: #0073be; /* light blue */
+    --bright-background-color: #ef5d8b; /* hot pink */
+     --dark-background-color: #0D3935; /* dark green */
     --calm-primary-color: #fff7ef; /* beige */
     /* --calm-secondary-color: /* brown */
     /* --calm-highlight-color: /* green */
@@ -30,30 +29,30 @@
 }
 
 body {
-    color:#fff7ef;
-    font-family: 'Open Sans', sans-serif;
+    color: var(--calm-primary-color);
+    font-family: var(--secondary-font);
 }
 
 h1,
 h2,
 h3 {
     color: var(--light-highlight-color);
-    font-family: 'Gloria Hallelujah', serif;
+    font-family: var(--primary-font);
 }
 
-p {
+p, h5, h6 {
     color:var(--secondary-color);
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--secondary-font);
     
 }
 
 btn {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--secondary-font);
 }
 /* Navbar */
 
 .navbar {
-    background-color: #ef8a01;
+    background-color: var(--highlight-color);
 }
 
 .nav-link {
@@ -70,7 +69,7 @@ btn {
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg') no-repeat center center;
     background-size: cover;
-    color: var(--bright-background-color1);
+    color: var(--dark-background-color);
     padding: 200px 0 10px;
     height: 50vh;
 }
@@ -86,13 +85,26 @@ btn {
 }
 /* About section */
 
-section-dark{
-    height: 100vh;
+.section-dark{
+    height: 80vh;
     border: 1px solid grey;
     display: flex;
     justify-content: center; /* centers flex items horizontally within container */
     align-items: center; /* centers flex items vertically within container */
-    background-color: var(--bright-background-color2);
+    background-color: var(--dark-background-color);
+}
+
+.section-dark p, .section-dark ul {
+    color:#fff7ef;
+}
+
+.section-light{
+    height: 80vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center; /* centers flex items horizontally within container */
+    align-items: center; /* centers flex items vertically within container */
+    background-color: #fff7ef;
 }
 
 .desc {
