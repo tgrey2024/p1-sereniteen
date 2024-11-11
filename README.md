@@ -25,7 +25,7 @@ Live site: [Sereniteen](https://www.google.com) add link to deployed pages
     - [Hero Section](#hero-section)
     - [Bootstrap Cards](#bootstrap-cards)
     - [Bootstrap Carousel](#bootstrap-carousel)
-    - [Videos](#videos)
+    - [Video](#video)
     - [Footer](#footer)
 - [Responsive Design](#responsive-design)
 - [Future Features](#future-features)
@@ -116,13 +116,12 @@ Content of the subheading 3
 ### Nav bar
 Home, Getting Help, Resources, Contact Us
 ### Hero Section
-### Bootstrap Accordian
-- what is Anxiety, Common Symptoms, Why am I anxious?
-- Stressors: Social Media, Exams, Peer Pressure
+### Bootstrap Accordion
+- what is Anxiety, Common Symptoms, Common Triggers: Social Media, Exams, Peer Pressure
 ### Bootstrap Cards
 - Coping Strategies, Activities
 - Online Resources, Self-Help Apps, Organisation
-### Videos
+### Video
 ### Bootstrap Carousel
 short stories
 ### Bootstrap Toggle button
