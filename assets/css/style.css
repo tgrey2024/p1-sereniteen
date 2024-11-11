@@ -1,0 +1,74 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Gloria+Hallelujah&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* CSS Variables */
+: root {
+    --hero-font: 'Gloria Hallelujah', serif;
+    --primary-font: 'Funnel Sans', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+    --primary-color: #fff7ef; /* beige */
+    --secondary-color: #402e32; /* brown */
+    --highlight-color: #ef8a01;/* orange */
+    /* --light-highlight-color: /* turqoise */
+    --bright-background-color1: #ef5d8b; /* hot pink */
+    /* --bright-background-color2: /* light blue */
+    --calm-primary-color: #fff7ef; /* beige */
+    /* --calm-secondary-color: /* brown */
+    /* --calm-highlight-color: /* green */
+    /* --calm-light-highlight-color: turqoise */
+    /* --calm-background-color1: purple */
+
+}
+
+/* Global styles */
+body {
+    background-color: var(--bright-background-color1);
+    color:#fff7ef;
+    font-family: var(--secondary-font);
+}
+
+h1,
+h2,
+h3 {
+    color: darkgrey;
+    font-family: var(--hero-font);
+}
+
+p {
+    color:#fff7ef;
+    font-family: var(--primary-font);
+    
+}
+
+btn {
+    font-family: var(--secondary-font);
+}
+/* Navbar */
+
+.navbar {
+    background-color: #ef8a01;
+}
+
+.nav-link {
+    color: var(--secondary-color);
+}
+
+.navbar img {
+    width: 30px;
+    margin-right: 1rem;
+}
+
+/* Hero section */
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: var(--bright-background-color1);
+    padding: 150px 0 10px;
+}
+
+/* About section */
+.desc {
+    color:#402e32;
+    font-size: 1.6rem;
+}
