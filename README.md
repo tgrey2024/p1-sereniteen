@@ -5,7 +5,7 @@
 ## Introduction
 Sereniteen is the first HTML/CSS/Bootstrap website that I built as part of my first individual project on the AI-Augmented Full-Stack Bootcamp course at the Code Institute. Its aim is to help site users to understand what anxiety is, how it may affect teenagers, and provide basic guidance and links to resources and professional help.
 
-Live site: [Sereniteen](https://www.google.com) add link to deployed pages
+Live site: [Sereniteen](https://tgrey2024.github.io/p1-sereniteen/) 
 
 ## Table of Contents
 - [User Experience Design](#user-experience-design)
