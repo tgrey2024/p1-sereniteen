@@ -84,6 +84,13 @@ btn {
     
 }
 /* About section */
+.accordion-button {
+    font-family: 'Open Sans', sans-serif;    
+}
+
+.accordion {
+    margin-bottom: 1.6rem;
+}
 
 .section-dark{
     height: 80vh;
@@ -94,17 +101,18 @@ btn {
     background-color: var(--dark-background-color);
 }
 
-.section-dark p, .section-dark ul {
+.section-dark p {
     color:#fff7ef;
 }
 
 .section-light{
-    height: 80vh;
+    min-height: 40vh;
     border: 1px solid grey;
     display: flex;
     justify-content: center; /* centers flex items horizontally within container */
     align-items: center; /* centers flex items vertically within container */
     background-color: #fff7ef;
+    padding: 20%;
 }
 
 .desc {
