@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Gloria+Hallelujah&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* CSS Variables */
-: root {
+:root {
     --hero-font: 'Gloria Hallelujah', serif;
     --primary-font: 'Funnel Sans', sans-serif;
     --secondary-font: 'Open Sans', sans-serif;
-    --primary-color: #fff7ef; /* beige */
-    --secondary-color: #402e32; /* brown */
-    --highlight-color: #ef8a01;/* orange */
-    /* --light-highlight-color: /* turqoise */
+    --primary-color: #fff7ef; /* off white */
+    --secondary-color: #402e32; /* dark brown */
+    --highlight-color: #ef8a01; /* orange */
+    --light-highlight-color: #e66c4e; /* salmon */
     --bright-background-color1: #ef5d8b; /* hot pink */
-    /* --bright-background-color2: /* light blue */
+     --bright-background-color2: #0073be; /* light blue */
     --calm-primary-color: #fff7ef; /* beige */
     /* --calm-secondary-color: /* brown */
     /* --calm-highlight-color: /* green */
@@ -21,27 +21,34 @@
 }
 
 /* Global styles */
+
+/* resets browser to clean slate */
+/* reset to remove any default padding and margin that browsers apply to elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-color: var(--bright-background-color1);
     color:#fff7ef;
-    font-family: var(--secondary-font);
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1,
 h2,
 h3 {
-    color: darkgrey;
-    font-family: var(--hero-font);
+    color: var(--light-highlight-color);
+    font-family: 'Gloria Hallelujah', serif;
 }
 
 p {
-    color:#fff7ef;
-    font-family: var(--primary-font);
+    color:var(--secondary-color);
+    font-family: 'Open Sans', sans-serif;
     
 }
 
 btn {
-    font-family: var(--secondary-font);
+    font-family: 'Open Sans', sans-serif;
 }
 /* Navbar */
 
@@ -64,10 +71,30 @@ btn {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg') no-repeat center center;
     background-size: cover;
     color: var(--bright-background-color1);
-    padding: 150px 0 10px;
+    padding: 200px 0 10px;
+    height: 50vh;
 }
 
+.hero-section h1 {
+    columns: var(--light-highlight-color);
+}
+
+.hero-section p {
+    color:#fff7ef;
+    font-family: 'Open Sans', sans-serif;
+    
+}
 /* About section */
+
+section-dark{
+    height: 100vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center; /* centers flex items horizontally within container */
+    align-items: center; /* centers flex items vertically within container */
+    background-color: var(--bright-background-color2);
+}
+
 .desc {
     color:#402e32;
     font-size: 1.6rem;
