@@ -71,7 +71,7 @@ btn {
     background-size: cover;
     color: var(--dark-background-color);
     padding: 200px 0 10px;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .hero-section h1 {
@@ -79,18 +79,27 @@ btn {
 }
 
 .hero-section p {
-    color:#fff7ef;
-    font-family: 'Open Sans', sans-serif;
+    color: var(--calm-primary-color);
+    font-family: var(--secondary-font);
     
 }
 /* About section */
+.about {
+    padding: 10%
+}
+
 .accordion-button {
-    font-family: 'Open Sans', sans-serif;    
+    font-family: var(--secondary-font);    
 }
 
 .accordion {
     margin-bottom: 1.6rem;
+    /* padding: 20%; */
 }
+/* 
+.blockquote {
+    padding: 10%;
+} */
 
 .section-dark{
     height: 80vh;
@@ -102,7 +111,7 @@ btn {
 }
 
 .section-dark p {
-    color:#fff7ef;
+    color: var(--calm-primary-color);
 }
 
 .section-light{
@@ -111,11 +120,11 @@ btn {
     display: flex;
     justify-content: center; /* centers flex items horizontally within container */
     align-items: center; /* centers flex items vertically within container */
-    background-color: #fff7ef;
-    padding: 20%;
+    background-color: var(--calm-primary-color);
+    padding: 10%;
 }
 
 .desc {
-    color:#402e32;
+    color: var(--secondary-color);
     font-size: 1.6rem;
 }
