@@ -60,23 +60,96 @@
       </header>
       <main>
     <!-- About Content -->
-      <section id="about">
+     <!-- About Accordion -->
+     <section>
+      <div class="container-fluid section-light">
+        <div class="row">
+          <div class="col-12 col-xl-8">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is Teenage Anxiety?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Anxiety is a normal response to stress or perceived danger.</p>
+                    <p>It's important to recognize that anxiety is common among teens and doesn't mean there's something wrong with you.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Common Signs of Anxiety
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Common signs of anxiety in teens include:</p>
+                    <ul>
+                      <li>Excessive worry or fear</li>
+                      <li>Difficulty concentrating</li>
+                      <li>Sleep problems</li>
+                      <li>Physical symptoms like headaches or stomachaches</li>
+                      <li>Irritability or mood swings</li>
+                      <li>Avoiding social situations</li>
+                      <li>Perfectionism or fear of making mistakes</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Common Triggers in Teens
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>For teens, common triggers can include:</p>
+                      <ul>
+                        <li>School pressures and exams</li>
+                        <li>Social relationships</li>
+                        <li>Body changes and health concerns</li>
+                        <li>Family issues</li>
+                        <li>Uncertainty about the future</li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Success Story Blockquote -->
+          <div class="col-12 col-xl-4">
+            <div>
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <h3>A Success Story: Asking for Help = Power Move</h3>
+                  <p>"Admitting I needed help was the hardest step. I was scared of being judged or feeling weak. But talking to my parents and seeing a therapist opened up a path to recovery. It showed me that it's okay to ask for help and that I'm not alone in this."</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Zoe, 16
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+      </div>
+     </section>
+     <!-- Get Help Section -->
+      <section id="get-help">
         <div class="container-fluid section-dark">
           <div class="row">
             <div class="col-12 col-xl-6">
               <img src="./assets/images/anxiousboy.webp" alt="Anxious boy with head in his hands" width="100%">
             </div>
             <div class="col-12 col-xl-6">
-              <h2>What is Anxiety?</h2>
-              <p class="desc">Anxiety is a normal response to stress or perceived danger. For teens, common triggers can include:</p>
-                <ul class="desc">
-                  <li>School pressures and exams</li>
-                  <li>Social relationships</li>
-                  <li>Body changes and health concerns</li>
-                  <li>Family issues</li>
-                  <li>Uncertainty about the future</li>
-                </ul>
-                <p class="desc">It's important to recognize that anxiety is common among teens and doesn't mean there's something wrong with you.</p>
+              <h2>Getting Help</h2>
+              <p class="desc">If anxiety is significantly impacting your daily life and the above strategies aren't providing enough relief, it may be time to speak with a mental health professional. They can provide additional support and treatment options tailored to your specific needs</p>
+              <p class="desc">Remember, experiencing anxiety doesn't mean you're weak. Learning to manage anxiety is an important life skill that will serve you well into adulthood. With practice and support, you can develop effective ways to cope with anxious feelings.
+              </p>
+              <a href="#" class="btn btn-light btn-lg">Get Help Now</a>
             </div>
           </div>
         </div>
