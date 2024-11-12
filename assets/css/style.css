@@ -8,7 +8,7 @@
     --primary-color: #fff7ef; /* off white */
     --secondary-color: #402e32; /* dark brown */
     --highlight-color: #ef8a01; /* orange */
-    --light-highlight-color: #e66c4e; /* salmon */
+    --light-highlight-color: #a22101; /* redwood */
     --bright-background-color: #ef5d8b; /* hot pink */
      --dark-background-color: #0D3935; /* dark green */
     --calm-primary-color: #fff7ef; /* beige */
@@ -33,10 +33,20 @@ body {
     font-family: var(--secondary-font);
 }
 
-h1,
+h1
+{
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+}
+
 h2,
 h3 {
     color: var(--light-highlight-color);
+    font-family: var(--primary-font);
+}
+
+h4 {
+    color: var(--highlight-color);
     font-family: var(--primary-font);
 }
 
@@ -46,17 +56,19 @@ p, h5, h6 {
     
 }
 
-btn {
+.btn {
     font-family: var(--secondary-font);
+    color: var(--primary-color);
+    background-color: var(--highlight-color);
 }
 /* Navbar */
 
 .navbar {
-    background-color: var(--highlight-color);
+    background-color: var(--light-highlight-color);
 }
 
 .nav-link {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .navbar img {
@@ -83,23 +95,6 @@ btn {
     font-family: var(--secondary-font);
     
 }
-/* About section */
-.about {
-    padding: 10%
-}
-
-.accordion-button {
-    font-family: var(--secondary-font);    
-}
-
-.accordion {
-    margin-bottom: 1.6rem;
-    /* padding: 20%; */
-}
-/* 
-.blockquote {
-    padding: 10%;
-} */
 
 .section-dark{
     height: 80vh;
@@ -108,6 +103,7 @@ btn {
     justify-content: center; /* centers flex items horizontally within container */
     align-items: center; /* centers flex items vertically within container */
     background-color: var(--dark-background-color);
+    gap: 5px;
 }
 
 .section-dark p {
@@ -121,10 +117,47 @@ btn {
     justify-content: center; /* centers flex items horizontally within container */
     align-items: center; /* centers flex items vertically within container */
     background-color: var(--calm-primary-color);
-    padding: 10%;
 }
 
+/* About section */
+.about {
+    padding: 10%
+}
+
+.accordion-button {
+    font-family: var(--secondary-font);    
+}
+
+.accordion {
+    margin-bottom: 1.6rem;
+    /* padding: 20%; */
+}
+
+/* Get Help Section */
+.get-help img {
+    padding: auto;
+    width: 100%;
+    margin: 10px;
+}
+
+/* Stories section */
+.stories {
+    padding: 15%;
+}
 .desc {
     color: var(--secondary-color);
     font-size: 1.6rem;
+}
+
+/* footer */
+.footer {
+    background-color: var(--light-highlight-color);
+    color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    height: 5vh;
+}
+
+.footer p {
+    color: var(--primary-color);
 }
