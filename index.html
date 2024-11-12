@@ -16,40 +16,40 @@
   </head>
 <body>
     <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo.png" alt="logo" width="30px">Sereniteen</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#resources">Resources</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Get Help
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Emergency</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Self-Help</a></li>
-                  <li><a class="dropdown-item" href="#online">Online Resources</a></li>
-                  <li><a class="dropdown-item" href="#online">Organisations</a></li>
-                  <li><a class="dropdown-item" href="#professional-help">Professional Help</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#stories">Stories</a>
-              </li>
-            </ul>
-          </div>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo.png" alt="logo" width="30px">Sereniteen</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#resources">Resources</a>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Get Help
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Emergency</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Self-Help</a></li>
+            <li><a class="dropdown-item" href="#online">Online Resources</a></li>
+            <li><a class="dropdown-item" href="#online">Organisations</a></li>
+            <li><a class="dropdown-item" href="#professional-help">Professional Help</a></li>
+          </ul>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#stories">Stories</a>
+          </li>
+        </ul>
         </div>
+      </div>
       </nav>
       <!-- Header -->
       <!-- Hero Section -->
@@ -139,17 +139,18 @@
      </section>
      <!-- Get Help Section -->
       <section id="get-help">
-        <div class="container-fluid section-dark">
-          <div class="row">
-            <div class="col-12 col-xl-6">
-              <img src="./assets/images/anxiousboy.webp" alt="Anxious boy with head in his hands" width="100%">
+        <div class="container-fluid section-dark get-help">
+          <div class="row mx-2 my-2 px-3">
+            <div class="col-12 col-lg-6">
+              <!-- Bootstrap img-fluid class makes image responsive to parent container -->
+              <img src="./assets/images/anxiousboy.webp" alt="Anxious boy with head in his hands" class="img-fluid">
             </div>
-            <div class="col-12 col-xl-6">
-              <h2>Getting Help</h2>
-              <p class="desc">If anxiety is significantly impacting your daily life and the above strategies aren't providing enough relief, it may be time to speak with a mental health professional. They can provide additional support and treatment options tailored to your specific needs</p>
+            <div class="col-12 col-lg-6 my-2 px-3">
+              <h4 class="display-4">Getting Help</h4>
+              <p class="desc">If anxiety is significantly impacting your daily life and the coping strategies aren't providing enough relief, it may be time to speak with a mental health professional. They can provide additional support and treatment options tailored to your specific needs</p>
               <p class="desc">Remember, experiencing anxiety doesn't mean you're weak. Learning to manage anxiety is an important life skill that will serve you well into adulthood. With practice and support, you can develop effective ways to cope with anxious feelings.
               </p>
-              <a href="#" class="btn btn-light btn-lg">Get Help Now</a>
+                <a href="#" class="btn btn-custom btn-lg mb-5">Get Help Now</a>
             </div>
           </div>
         </div>
@@ -162,20 +163,20 @@
       </section>
       <!-- Stories -->
       <section>
-        <div class="container-fluid section-light">
+        <div class="container-fluid stories section-light">
           <div class="row">
             <!-- Video -->
-            <div class="col-12 col-xl-6">
+            <div class="col-12 col-xl-8 my-4">
               <h2>Teenage Anxiety: What Helps Me</h2>
               <h5>Saul Whelan | TEDxYouth@DúnLaoghaire</h5>
-              <div style="max-width:1024px">
-                <div style="position:relative;height:0;padding-bottom:56.25%">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/6-vE7KOD0es?si=vciFJBy96VpUStD3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="embed-responsive embed-responsive-16by9">
+                <div style="height:0;padding-bottom:56.25%">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/6-vE7KOD0es?si=o9w8j2KEUIkoHJpp" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
             <!-- Carousel -->
-            <div class="col-12 col-xl-6">
+            <div class="col-12 col-xl-4">
               <h2>Shared Stories</h2>
               <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -210,9 +211,24 @@
       </section> 
       <!-- Footer -->
       <footer>
-        
-      </footer>  
+        <div class="container-fluid footer d-flex justify-content-between align-items-center">
+          <div class="text-center text-md-start">
+        <p class="mb-0">&copy; 2024 Sereniteen. All rights reserved.</p>
+          </div>
+          <div class="text-center text-md-end">
+        <a href="https://www.facebook.com" class="text-light me-3" target="_blank" rel="noopener noreferrer"
+        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com" class="text-light me-3" target="_blank" rel="noopener noreferrer"
+        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com" class="text-light" target="_blank" rel="noopener noreferrer" 
+        aria-label="Visit our X page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
     </main>
+    
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/28648f3889.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
