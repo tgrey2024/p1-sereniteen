@@ -128,7 +128,8 @@ US11. As a teenager undergoing stress or as a parent of one, I want to find acti
 ## Design
 ### Colour Scheme
 The aim of the project is to provide a calm environment that would be suited to both teenage users and their parents. I took inspiration from the colours from my garden and used ColorSpace to derive a calm and subtle palette.
-![image](https://github.com/user-attachments/assets/4dc7ec50-fb37-48ba-85b3-a6569be23be1)
+![ColourPalette](https://github.com/user-attachments/assets/1740d9a4-81c3-4e29-b261-a9e51a4403f0)
+
 
 ### Typography
 Content of the subheading 3
@@ -218,6 +219,30 @@ Once the MVP has been created in Gitpod, go to GitHub Pages to make an early dep
 
 ## Testing
 Validation of HTML/CSS, Lighthouse Audits, Bugs
+#### HTML Validation
+Some unclosed tags were found on the initial parse of HTML validation. These were resolved and subsequently no errors were found in either of the HTML files:
+![image](https://github.com/user-attachments/assets/6d099dd7-acc2-4ef8-874d-e2c7b2212b32)
+
+####CSS Validation
+No errors were found in the CSS file.
+![image](https://github.com/user-attachments/assets/9e1270a8-ad71-4871-b608-9a5ac5aa8e1c)
+
+#### Lighthouse Audit
+A Lighthouse audit was conducted using the tool on Chrome Devtools after the first skeleton of the index page was built and deployed to GitHub. It is important to disable all extensions on the browser to obtain the correct performance results on response time. This provided some initial findings on loading time of images and colour compatability which was resolved before any further development.
+
+The final deployment was audited again on Lighthouse on both mobile devices and desktop.
+Index.html:
+On mobile devices:
+![image](https://github.com/user-attachments/assets/efa74bd7-d1ea-4b3b-beef-bb27c969e36e)
+On desktop:
+![image](https://github.com/user-attachments/assets/d280e940-f2ec-4dbd-927d-e2cff57089c0)
+
+Get Help (resources.html)
+On mobile devices:
+![image](https://github.com/user-attachments/assets/1c0c22e7-bfb0-476a-9752-cc8ac3e2d8e7)
+
+On desktop:
+![image](https://github.com/user-attachments/assets/8d20d3cc-b46e-40d0-8201-803a4fe7a989)
 
 [Back to top](#top)
 
