@@ -8,14 +8,8 @@
     --secondary-color: #402e32; /* dark brown */
     --highlight-color: #ef8a01; /* orange */
     --light-highlight-color: #a22101; /* redwood */
-    --bright-background-color: #ef5d8b; /* hot pink */
-     --dark-background-color: #0D3935; /* dark green */
+    --dark-background-color: #0D3935; /* dark green */
     --calm-primary-color: #fff7ef; /* beige */
-    /* --calm-secondary-color: /* brown */
-    /* --calm-highlight-color: /* green */
-    /* --calm-light-highlight-color: turqoise */
-    /* --calm-background-color1: purple */
-
 }
 
 /* Global styles */
@@ -69,8 +63,7 @@ p, h5, h6 {
 
 .navbar {
     background-color: var(--light-highlight-color);
-    padding-right: 2rem;
-    padding-top: 1rem;
+    padding-right: 1rem;
     padding-left: 1.3rem;
 }
 
@@ -94,10 +87,10 @@ p, h5, h6 {
     padding: 16rem 0 10px;
     min-height: 50vh;
 }
-
+/* 
 .hero-section h1 {
     color: var(--light-highlight-color);
-}
+} */
 
 .hero-section p {
     color: var(--calm-primary-color);
