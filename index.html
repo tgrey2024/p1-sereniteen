@@ -16,8 +16,8 @@
   </head>
 <body>
     <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
-      <div class="container">
+    <nav id="navbar" class="navbar navbar-expand-sm sticky-top" data-bs-theme="dark">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
         <img src="assets/images/logo.png" alt="logo" width="30px">Sereniteen</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,16 +32,16 @@
           <a class="nav-link" href="resources.html">Resources</a>
           </li>
           <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Get Help
+          <a class="nav-link dropdown-toggle" href="resources.html#emergency" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Get Help Now
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Emergency</a></li>
+            <li><a class="dropdown-item" href="resources.html#emergency">Emergency</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Self-Help</a></li>
             <li><a class="dropdown-item" href="#online">Online Resources</a></li>
-            <li><a class="dropdown-item" href="#online">Organisations</a></li>
-            <li><a class="dropdown-item" href="#professional-help">Professional Help</a></li>
+            <li><a class="dropdown-item" href="#organisations">Organisations</a></li>
+            <li><a class="dropdown-item" href="resources.html#professional-help">Professional Help</a></li>
           </ul>
           </li>
           <li class="nav-item">
@@ -54,9 +54,13 @@
       <!-- Header -->
       <!-- Hero Section -->
       <header class="container-fluid hero-section text-center">
-        <h1 class="display-2">Sereniteen</h1>
-        <p>Tackling Anxiety Together: Understand, Support, Thrive</p>
-        <a href="#" class="btn btn-light btn-lg">Get Help Now</a>
+        <section class="row">
+          <h1 class="display-2">Sereniteen</h1>
+          <p class="lead">Tackling Anxiety Together: Understand, Support, Thrive</p>
+          <div class="text-center">
+          <a href="resources.html#emergency" class="btn btn-light btn-lg">Get Urgent Help Now</a>
+          </div>
+        </section>
       </header>
       <main>
     <!-- About Content -->
@@ -140,7 +144,7 @@
      <!-- Get Help Section -->
       <section id="get-help">
         <div class="container-fluid section-dark get-help">
-          <div class="row mx-2 my-2 px-3">
+          <div class="row mx-2 my-2 px-3 py-4">
             <div class="col-12 col-lg-6">
               <!-- Bootstrap img-fluid class makes image responsive to parent container -->
               <img src="./assets/images/anxiousboy.webp" alt="Anxious boy with head in his hands" class="img-fluid">
@@ -150,47 +154,64 @@
               <p class="desc">If anxiety is significantly impacting your daily life and the coping strategies aren't providing enough relief, it may be time to speak with a mental health professional. They can provide additional support and treatment options tailored to your specific needs</p>
               <p class="desc">Remember, experiencing anxiety doesn't mean you're weak. Learning to manage anxiety is an important life skill that will serve you well into adulthood. With practice and support, you can develop effective ways to cope with anxious feelings.
               </p>
-                <a href="#" class="btn btn-custom btn-lg mb-5">Get Help Now</a>
+                <a href="resources.html" class="btn btn-custom btn-lg mb-5">Get Help Now</a>
             </div>
           </div>
         </div>
 
       </section>
-    <!-- Resources Section -->
-      <section id="resources">
-        <!-- Cards -->
+    <!-- Organisations Section -->
+      <section id="organisations">
+        <div class="container-fluid section-light">
+          <div class="row text-center">
+            <div class="col-12">
+              <h4 class="display-6 my-4">Teen Anxiety Organisations</h4>
+            </div>
+           
+            <div class="col-12 col-md-4">
+              <a href="https://www.anxietyuk.org.uk/get-help/students-and-anxiety/" target="_blank" aria-label="Anxiety UK's page on Student Anxiety">
+              <img src="./assets/images/AnxietyUK.webp" alt="Resource 1" class="rounded-circle img-fluid" width="150">
+              <p class="h5">Anxiety UK</p></a>
+              <p>Anxiety UK provides support and resources for individuals dealing with anxiety, helping them manage their mental health effectively.</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="https://www.youngminds.org.uk/young-person/mental-health-conditions/anxiety/" target="_blank" aria-label="Young Minds - Anxiety">
+                <img src="./assets/images/youngminds.webp" alt="Young Minds Logo" class="rounded-circle img-fluid" width="150">
+                <p class="h5">Young Minds</p>
+              </a>
+                <p>Young Minds is a leading charity fighting for children and young people's mental health. They provide resources, support, and guidance to help young people manage their mental health and well-being.</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="https://stem4.org.uk/" target="_blank" aria-label="Stem4">
+                <img src="./assets/images/stem4.webp" alt="Stem 4 Logo" class="rounded-circle img-fluid" width="150">
+                <p class="h5">Stem 4</p>
+              </a>
+                <p>Stem 4 is a charity that promotes positive mental health in teenagers through education, resilience strategies, and early intervention.</p>
+            </div>
+          </div>
+        </div>
 
       </section>
       <!-- Stories -->
-      <section>
-        <div class="container-fluid stories section-light">
-          <div class="row">
-            <!-- Video -->
-            <div class="col-12 col-xl-8 my-4">
-              <h2>Teenage Anxiety: What Helps Me</h2>
-              <h5>Saul Whelan | TEDxYouth@DúnLaoghaire</h5>
-              <div class="embed-responsive embed-responsive-16by9">
-                <div style="height:0;padding-bottom:56.25%">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/6-vE7KOD0es?si=o9w8j2KEUIkoHJpp" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
+      <section id="stories">
+        <div class="container-fluid stories section-dark">
+          <div class="row text-center">
             <!-- Carousel -->
-            <div class="col-12 col-xl-4">
-              <h2>Shared Stories</h2>
+            <div class="col-12 col-xl-4 my-4 p-3">
+              <h4 class="display-6 my-4">Shared Stories</h4>
               <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+                <div class="carousel-inner carousel  p-5">
+                  <div class="carousel-item story active">
                     <h5>Bye-Bye Judgement Jitters</h5>
                     <p>"I used to freak out about what others thought of me. Social situations made my heart race. But through therapy and my squad's support, I've learned to be myself and focus on my strengths. Now, I speak up in class without feeling like I'm in a spotlight."</p>
                     <h6>- Alex, 16</h6>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item story">
                     <h5>Routine to the Rescue</h5>
                     <p>"Anxiety used to run my life. Creating a daily routine with chill tasks helped me take control. Exercise, journaling, and keeping a sleep schedule have made a huge difference. I'm not perfect yet, but each day feels a bit easier."</p>
                     <h6>- Maya, 17</h6>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item story">
                   <h5>Art Therapy FTW</h5>
                   <p>"Art became my escape from anxiety. Drawing and painting let me express my feelings without words. It's a way to channel my emotions and find peace. Sharing my work online also connected me with others who understand what I'm going through."</p>
                   <h6>- Jorje, 14</h6>
@@ -205,17 +226,33 @@
                 </button>
               </div>
             </div>
-          </div>      
+          </div>
+          <!-- Video -->
+            <div class="col-12 col-xl-8 my-4 p-3">
+              <h4 class="display-6 my-4">Teenage Anxiety: What Helps Me</h4>
+              <p class="lead">Saul Whelan | TEDxYouth@DúnLaoghaire</p>
+              <p class="video-link">
+                <a href="https://www.youtube.com/embed/6-vE7KOD0es?si=o9w8j2KEUIkoHJpp" target="_blank" aria-label="Watch TEDxYouth video on YouTube (opens new tab)">
+                  <i class="fab fa-youtube"></i> Watch on YouTube
+                </a>
+              </p>
+              <div class="embed-responsive embed-responsive-16by9 video">
+                <div style="height:0;padding-bottom:50%">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/6-vE7KOD0es?si=o9w8j2KEUIkoHJpp" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+                  
 
         </div>
       </section> 
       <!-- Footer -->
       <footer>
         <div class="container-fluid footer d-flex justify-content-between align-items-center">
-          <div class="text-center text-md-start">
+          <div class="text-center text-md-start m-4">
         <p class="mb-0">&copy; 2024 Sereniteen. All rights reserved.</p>
           </div>
-          <div class="text-center text-md-end">
+          <div class="text-center text-md-end m-4">
         <a href="https://www.facebook.com" class="text-light me-3" target="_blank" rel="noopener noreferrer"
         aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com" class="text-light me-3" target="_blank" rel="noopener noreferrer"
