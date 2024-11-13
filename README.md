@@ -96,6 +96,11 @@ Challenges:
 ### User Stories
 User Stories and the associated Acceptance Criteria and Tasks were generated using Microsoft Copilot. These were then reviewed and edited to be SMART and focused for the delivery of an MVP. A Project Board was set up in GitHub Projects to track project progress, and the user stories were prioritised using MoSoCoW.
 
+US1. As a teenager experiencing anxiety for the first time or their parent, I want to find clear, relatable information about what anxiety is, so that I can find out if I have symptoms of anxiety and better understand my feelings.
+
+US2. As a parent or friend of a teenager, I want to understand the signs of anxiety in teens, so I can recognize when my child might be struggling.
+
+US3. 
 ### Wireframes
 ![wf-mobile](https://github.com/user-attachments/assets/948fcc3b-2e8d-4c7d-93cd-90d72806eb5d)
 ![wf-browser](https://github.com/user-attachments/assets/84f15a5d-8d09-4f55-bb15-49d03aedbe05)
@@ -134,13 +139,21 @@ links to socials
 
 [Back to top](#top)
 ## Responsive Design
+Most of the content is responsive to different screen sizes as it was built using components from the Bootstrap Library.
+![image](https://github.com/user-attachments/assets/0c076c56-37c8-45e0-a790-a9484876ee5e)
+
+Video: Some elements such as the embedded YouTube video take up too much space on smaller devices. Media queries have been implemented to hide the video on smaller devices and provide an external link to the video on YouTube instead.
 
 [Back to top](#top)
 ## Future Features
 ### Bugs to be Fixed
-
-### Share your Stories
+* A gap appears on the right on the medium-sized devices
+* Scrolling can sometimes move the navbar up and down
+* Links to more activity guides, checklists and questionnaire could be added.
 ### Calm mode switch
+A Bootstrap switch could be added to the navbar to switch between a vibrant colour theme that would appeal to teens and a calmer alternative scheme that would make it easier for the reader if the colours are too stimulating. The current colour scheme is set in CSS variables, which could be leveraged to reset the colours between the two themes, but a page refresh needs to be triggered by the click event of the switch.
+### Share your Stories
+A modal could be added to allow users to submit stories to be shared with others who are managing their anxiety. Testimonials and success stories can give hope to parents and teenagers to help them with their recovery.
 
 [Back to top](#top)
 
