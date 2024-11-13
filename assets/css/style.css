@@ -87,10 +87,6 @@ p, h5, h6 {
     padding: 16rem 0 10px;
     min-height: 50vh;
 }
-/* 
-.hero-section h1 {
-    color: var(--light-highlight-color);
-} */
 
 .hero-section p {
     color: var(--calm-primary-color);
@@ -166,6 +162,11 @@ p, h5, h6 {
     border: none;
 }
 
+.video-thumbnail {
+    display:none;
+    width: 180px;
+}
+
 .carousel * {
     background-color: #fff7ef;
     color: var(--secondary-color);
@@ -222,17 +223,15 @@ p, h5, h6 {
     .hero-section .lead {
         font-size: 0.8rem;
     }
+
 }
 
 @media screen and (max-width: 768px) {
-    .video .iframe {
-        width: 364px;
-        height: 204.75px; 
+
+    .video-thumbnail {
+        display:inline-block;
     }
-}
 
-
-@media screen and (max-width: 768px) {
     .video {
         display:none;
     }
@@ -244,5 +243,9 @@ p, h5, h6 {
     .video-link a {
         text-decoration: none;
         /* color: var(--highlight-color); */
+    }
+    .video .iframe {
+        width: 364px;
+        height: 204.75px; 
     }
 }
