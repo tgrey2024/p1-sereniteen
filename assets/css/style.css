@@ -85,9 +85,9 @@ p, h5, h6 {
 /* Hero section */
 
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/hero.webp') no-repeat center center;
     background-size: cover;
-    color: var(--dark-background-color);
+    background-color: var(--dark-background-color);
     /* prevent navbar hiding section title*/
     padding: 16rem 0 10px;
     min-height: 50vh;
@@ -200,6 +200,10 @@ p, h5, h6 {
     color: var(--secondary-color);
 }
 
+/* Talking section */
+#talking li{
+    color: var(--secondary-color);
+}
 
 /* footer */
 .footer {
