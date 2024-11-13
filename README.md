@@ -231,7 +231,7 @@ A modal could be added to allow users to submit stories to be shared with others
 ![Static Badge](https://img.shields.io/badge/GoogleFonts-Typography-blue)
 ### Tools and Programs
 ![Static Badge](https://img.shields.io/badge/LogoAI-LogoGenerator-red)
-![Static Badge](https://img.shields.io/badge/Favicon.io-icons-blue)
+![Static Badge](https://img.shields.io/badge/Favicon.io-icons-navy)
 ![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-green)
 ![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-green)
 ![Static Badge](https://img.shields.io/badge/MSCopilot-AI-orange)
