@@ -13,7 +13,6 @@ Live site: [Sereniteen](https://tgrey2024.github.io/p1-sereniteen/)
     - [User Stories](#user-stories)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
-    - [Typography](#typography)
     - [Wireframes](#wireframes)
 - [Design](#design)
     - [Colour Scheme](#colour-scheme) 
@@ -128,7 +127,7 @@ The aim of the project is to provide a calm environment that would be suited to 
 
 ![ColourPalette](https://github.com/user-attachments/assets/ade7bbde-7ade-4a25-9307-709d9f75d11d)
 
-After the initial Lighthouse audit, I checked some of the colour combinations on [WCAG Contrast Checker]([https://chromewebstore.google.com/detail/wcag-color-contrast-check](https://webaim.org/resources/contrastchecker/), and they were adjusted for better contrast and readability:
+After the initial Lighthouse audit, I checked some of the colour combinations on [WCAG Contrast Checker](https://webaim.org/resources/contrastchecker/), and they were adjusted for better contrast and readability:
 
 ![Contrast](https://github.com/user-attachments/assets/3cdb157d-19e3-470d-9462-34c21215ec3a)
 
@@ -176,7 +175,7 @@ I chose to summarise the key facts in a Bootstrap Accordion above the fold. This
 Bootstrap Cards have been used to show the wide range of self-help activities and coping strategies that are available for teens to manage their anxiety and reduce stress. The call to action buttons on each card use the highlight orange colour and contain a positive message in the form of "Let's ..." to tell users that they are not doing this alone. These link to external online resources to open in a new tab.
 
 ### Video
-A YouTube video has been embedded in the index page in the Shared Stories section. This video is from a TedxYouth talk by a teenager describing his experience of anxiety and strategies he uses to cope with anxiety. The video provides a richer content experience for the user, and perhaps draw strength from watching someone describe similar symptoms and overcoming their struggles.
+A YouTube video has been embedded in the index page in the Shared Stories section. This video is from a TEDxYouth talk by a teenager describing his experience of anxiety and strategies he uses to cope with anxiety. The video provides a richer content experience for the user, and perhaps draw strength from watching someone describe similar symptoms and overcoming their struggles.
 
 The video does not work so well on the page on screens smaller than 380px, so a media query applies so that it could be replaced by a link to the video on YouTube on smaller screens.
 
@@ -193,12 +192,13 @@ The footer uses darker tones from the palette to ground the page. It includes th
 [Back to top](#top)
 ## Responsive Design
 Most of the content is responsive to different screen sizes as it was built using components from the Bootstrap Library.
-![image](https://github.com/user-attachments/assets/a455e956-25f9-4269-b91e-cc07ad9ca48d)
-(
+![responsive](https://github.com/user-attachments/assets/9106ac90-025b-465c-944e-69f8bdfede3e)
+
 
 Video: Some elements such as the embedded YouTube video take up too much space on smaller devices. Media queries have been implemented to hide the video on smaller devices and provide an external link to the video on YouTube instead.
 
 [Back to top](#top)
+
 ## Future Features
 ### Bugs to be Fixed
 * A gap appears on the right on the medium-sized devices
@@ -224,11 +224,10 @@ Google Fonts
 ### Tools and Programs
 LogoAI
 Favicon.io
-
 Balsamiq
 Squoosh
 MS CoPilot
-GitHub CoPilot
+GitHub CoPilot ![GitHub Copilot](https://img.shields.io/badge/github_copilot-8957E5?style=for-the-badge&logo=github-copilot&logoColor=white)
 
 [Back to top](#top)
 
@@ -291,14 +290,14 @@ MS Copilot was used to generate much of the content on coping strategies and onl
 ### Media References
 
 #### Organisation logos:
-Young Minds - [https://www.youngminds.org.uk/](https://www.youngminds.org.uk/)
-Stem 4 [https://stem4.org.uk/](https://stem4.org.uk/)
-Anxiety UK - [https://www.anxietyuk.org.uk/about-us/](https://www.anxietyuk.org.uk/about-us/)
-NHS - [https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/](https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/)
-NSPCC - [https://www.nspcc.org.uk/](https://www.nspcc.org.uk/)
+* Young Minds - [https://www.youngminds.org.uk/](https://www.youngminds.org.uk/)
+* Stem 4 [https://stem4.org.uk/](https://stem4.org.uk/)
+* Anxiety UK - [https://www.anxietyuk.org.uk/about-us/](https://www.anxietyuk.org.uk/about-us/)
+* NHS - [https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/](https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/)
+* NSPCC - [https://www.nspcc.org.uk/](https://www.nspcc.org.uk/)
 
 #### Photos:
-Pexels
+* Pexels
 
 #### Acknowledgements
 Many thanks to my three patient testers (also my husband and teenage children) for helping me test throughout development, and
