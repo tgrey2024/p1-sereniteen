@@ -40,8 +40,6 @@ Acknowledgements
 [Back to top](#top)
 
 ## User Experience Design
-Content of the subheading 3
-Content of the subheading 3
 
 ### Project Brief
 The site user's goal is to find "accessible, beginner-friendly information" on a mental health issue. The scope of mental health is very broad, so I have chosen to focus on anxiety in teenagers. The aim is to present information on common symptoms and how to manage stress using a "supportive and organised layout".
@@ -96,11 +94,32 @@ Challenges:
 ### User Stories
 User Stories and the associated Acceptance Criteria and Tasks were generated using Microsoft Copilot. These were then reviewed and edited to be SMART and focused for the delivery of an MVP. A Project Board was set up in GitHub Projects to track project progress, and the user stories were prioritised using MoSoCoW.
 
+Here are the user stories that have been prioritised as "must have":
+
 US1. As a teenager experiencing anxiety for the first time or their parent, I want to find clear, relatable information about what anxiety is, so that I can find out if I have symptoms of anxiety and better understand my feelings.
 
 US2. As a parent or friend of a teenager, I want to understand the signs of anxiety in teens, so I can recognize when my child might be struggling.
 
-US3. 
+US3. As someone seeking help to cope with anxiety, I want to access practical tips and strategies to manage my anxiety, so that I can cope better during stressful situations like exams or social events.
+
+US4. As a teenager in the midst of an anxiety attack, I want to quickly find emergency contact information and resources, so that I can get immediate help and guidance to calm down.
+
+US5. As a teenager struggling with anxiety or the parent of one, I want to read personal stories and experiences from other teens who have managed their anxiety, so that I can feel hopeful and motivated to work on my own mental health.
+
+US6. As a first-time site-user, I want to find easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+
+US7. As a site user, I want to understand the purpose of the Sereniteen website immediately upon arrival so that I can get a visual understanding of the site's purpose and whether it's useful to me.
+
+The following user stories that have been prioritised as "should have" and have been fully are partly implemented:
+
+US8. As a teenager or parent considering therapy for the teen, I want to find information about different types of mental health professionals and treatments, so that I can decide what kind of help might be right for me or my child and feel confident in seeking it.
+
+US9. As a teenager whose anxiety is misunderstood by adults, I want to find resources that explain teenage anxiety to parents and teachers, so that I can help the adults in my life understand and support me better.
+
+US10. As a parent, I want to access expert advice on how to talk to my teenager about their anxiety, so I can approach the topic in a supportive and understanding way.
+
+US11. As a teenager undergoing stress or as a parent of one, I want to find activities and practices that can reduce anxiety in teens, so I can encourage my child to try new methods for relaxation and stress relief.
+
 ### Wireframes
 ![wf-mobile](https://github.com/user-attachments/assets/948fcc3b-2e8d-4c7d-93cd-90d72806eb5d)
 ![wf-browser](https://github.com/user-attachments/assets/84f15a5d-8d09-4f55-bb15-49d03aedbe05)
@@ -108,7 +127,8 @@ US3.
 [Back to top](#top)
 ## Design
 ### Colour Scheme
-Content of the subheading 3
+The aim of the project is to provide a calm environment that would be suited to both teenage users and their parents. I took inspiration from the colours from my garden and used ColorSpace to derive a calm and subtle palette.
+![image](https://github.com/user-attachments/assets/4dc7ec50-fb37-48ba-85b3-a6569be23be1)
 
 ### Typography
 Content of the subheading 3
@@ -140,7 +160,8 @@ links to socials
 [Back to top](#top)
 ## Responsive Design
 Most of the content is responsive to different screen sizes as it was built using components from the Bootstrap Library.
-![image](https://github.com/user-attachments/assets/0c076c56-37c8-45e0-a790-a9484876ee5e)
+![image](https://github.com/user-attachments/assets/a455e956-25f9-4269-b91e-cc07ad9ca48d)
+(
 
 Video: Some elements such as the embedded YouTube video take up too much space on smaller devices. Media queries have been implemented to hide the video on smaller devices and provide an external link to the video on YouTube instead.
 
