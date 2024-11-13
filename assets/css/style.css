@@ -71,6 +71,7 @@ p, h5, h6 {
     background-color: var(--light-highlight-color);
     padding-right: 2rem;
     padding-top: 1rem;
+    padding-left: 1.3rem;
 }
 
 .nav-link {
@@ -81,6 +82,7 @@ p, h5, h6 {
     width: 30px;
     margin-right: 1rem;
 }
+
 
 /* Hero section */
 
@@ -149,7 +151,8 @@ p, h5, h6 {
     text-decoration: none;
 }
 
-#resources a:hover, #organisations a:hover {
+#resources a:hover, #organisations a:hover, 
+.carousel-control-prev-icon, .carousel-control-next-icon {  
     color: var(--highlight-color);
 }
 
@@ -220,7 +223,22 @@ p, h5, h6 {
 .footer p {
     color: var(--primary-color);}
 
+
 /* Media queries */
+@media screen and (max-width:384px) {
+    .hero-section .lead {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video .iframe {
+        width: 364px;
+        height: 204.75px; 
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .video {
         display:none;

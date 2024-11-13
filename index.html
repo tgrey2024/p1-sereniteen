@@ -20,6 +20,10 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
         <img src="assets/images/logo.png" alt="logo">Sereniteen</a>
+        <!-- <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="form-check-input">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Calm mode</label>
+        </div>         -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -198,9 +202,14 @@
         <div class="container-fluid stories section-dark">
           <div class="row text-center">
             <!-- Carousel -->
-            <div class="col-12 col-xl-4 my-4 p-3">
+            <div class="col-12 col-md-6 mx-auto col-xl-4 my-4 p-3" data-bs-theme="dark">
               <h4 class="display-6 my-4">Shared Stories</h4>
-              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">              
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Story 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Story 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Story 3"></button>
+                  </div>
                 <div class="carousel-inner carousel  p-5">
                   <div class="carousel-item story active">
                     <h5>Bye-Bye Judgement Jitters</h5>
@@ -217,14 +226,14 @@
                   <p>"Art became my escape from anxiety. Drawing and painting let me express my feelings without words. It's a way to channel my emotions and find peace. Sharing my work online also connected me with others who understand what I'm going through."</p>
                   <h6>- Jorje, 14</h6>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
-                </button>
+                </button> -->
               </div>
             </div>
           </div>
