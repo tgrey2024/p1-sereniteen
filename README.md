@@ -38,6 +38,9 @@ Live site: [Sereniteen](https://tgrey2024.github.io/p1-sereniteen/)
 ### Project Brief
 The site user's goal is to find "accessible, beginner-friendly information" on a mental health issue. The scope of mental health is very broad, so I have chosen to focus on anxiety in teenagers. The aim is to present information on common symptoms and how to manage stress using a "supportive and organised layout".
 
+The "business" goal is to help users understand what anxiety is and learn coping strategies so that teens and their parents can get credible information quickly and get help fast.
+The name Sereniteen comes from serenity - the peace and calm that every teen and their families strive for.
+
 ### Users
 Potential users of the site are:
 - teenagers who may be worried about themselves
@@ -131,18 +134,20 @@ Because both teenagers and their parents are in the userbase, a more distinct an
 
 ![Font](https://github.com/user-attachments/assets/5702b1b8-7a3f-425a-a2aa-6d7fd6a3fd6a)
 
+
 ### Imagery
 Initially I experimented with using MS Copilot to generate most of the images. The results were not very reliable and the process of refining prompts was taking too long, so I went to Pexels and found all of the photos from their photo library. The search function did not work well to bring back too many results, but there are additional tags in the search results page which open up the search and direct you to more photos. I found a range of photos showing a diverse range of ages, race and background with teenagers. Most of these were reduced in filesize and optimised on Squoosh and save as WEBP format to reduce page loading time.
 
 The use of higher quality and slightly more stylised photos in muted tones would compliment the site design and appeal to teenagers who are more accustomed to visual apps like Instagram and Snapchat.
 
-![anxiousboy](https://github.com/user-attachments/assets/192737a1-1977-450b-95b0-d4dd0135542f)
+![anxiousboy](https://github.com/user-attachments/assets/be3792c8-cb01-474a-9ff2-e65760a3f604)
 
 ![meditate](https://github.com/user-attachments/assets/3dd33d2a-7ad0-4c57-b968-717634a93b37)
 
 ![family](https://github.com/user-attachments/assets/2e5cd7e7-e49e-410b-9a4f-b9d0df3c07d7)
 
 ![breathe](https://github.com/user-attachments/assets/2ad21648-a56a-4007-acd3-50d9fff85b7e)
+
 
 ## Website Features
 ### Nav bar
@@ -161,13 +166,15 @@ Adjustments:
 The purpose of the hero section is to convey the purpose of Sereniteen and the site. The chosen image portrays a struggling teen feeling along and needing help, something that users of the site might be able to relate to. The tagline contrasts in colour and message with this image to drive home the purpose of the site, which a call to action button to "Get Help Now".
 ![Hero](https://github.com/user-attachments/assets/0102cb13-19be-4a8b-acdb-9ea292026f2f)
 
+
 ### Bootstrap Accordions
 #### Basic Facts and Types of Professional Help
 I chose to summarise the key facts in a Bootstrap Accordion above the fold. This gives a first-time visitor to the site a snapshot of what to expect from this site and the kind of information they would expect to find. The accordion contains the key questions a user might ask on the index page, and on the resources page another accordion is used to show different types of professional help users might consider getting. The accordion stays within its section and collapses when a new question button is chosen.
 
+
 ### Bootstrap Cards
 #### Self-Help Activities
-Bootstrap Cards have been used to show the wide range of self-help activities and coping strategies that are available for teens to manage their anxiety and reduce stress. The call to action buttons on each card use the highlight orange colour and contain a positive message in the form of "Let's ..." to tell users that they are not doing this alone. These link to external online resources to open in a new tab.
+Cards are a great way to categorise different options and pathways for users to follow. Bootstrap Cards have been used to show the wide range of self-help activities and coping strategies that are available for teens to manage their anxiety and reduce stress. The call to action buttons on each card use the highlight orange colour and contain a positive message in the form of "Let's ..." to tell users that they are not doing this alone. These link to external online resources to open in a new tab.
 
 ### Video
 A YouTube video has been embedded in the index page in the Shared Stories section. This video is from a TEDxYouth talk by a teenager describing his experience of anxiety and strategies he uses to cope with anxiety. The video provides a richer content experience for the user, and perhaps draw strength from watching someone describe similar symptoms and overcoming their struggles.
@@ -213,21 +220,22 @@ A modal could be added to allow users to submit stories to be shared with others
 
 ## Technologies Used
 ### Languages and Technologies
-HTML5
-CSS3
-GitHub
-Gitpod
+![Static Badge](https://img.shields.io/badge/HTML5-Language-blue)
+![Static Badge](https://img.shields.io/badge/CSS3-Language-blue)
+![Static Badge](https://img.shields.io/badge/GitHub-RepoHosting-black)
+![Static Badge](https://img.shields.io/badge/Gitpod-IDE-yellow)
+
 ### Libraries
-Bootstrap 5.3.3
-Font Awesome
-Google Fonts
+![Static Badge](https://img.shields.io/badge/Bootstrap-5.3-purple)
+![Static Badge](https://img.shields.io/badge/FontAwesome-icons-navy)
+![Static Badge](https://img.shields.io/badge/GoogleFonts-Typography-blue)
 ### Tools and Programs
-LogoAI
-Favicon.io
-Balsamiq
-Squoosh
-MS CoPilot
-GitHub CoPilot ![GitHub Copilot](https://img.shields.io/badge/github_copilot-8957E5?style=for-the-badge&logo=github-copilot&logoColor=white)
+![Static Badge](https://img.shields.io/badge/LogoAI-LogoGenerator-red)
+![Static Badge](https://img.shields.io/badge/Favicon.io-icons-blue)
+![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-green)
+![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-green)
+![Static Badge](https://img.shields.io/badge/MSCopilot-AI-orange)
+![Static Badge](https://img.shields.io/badge/GitHubCopilot-AI-orange)
 
 [Back to top](#top)
 
