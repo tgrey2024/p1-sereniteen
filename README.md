@@ -260,11 +260,11 @@ Once the MVP has been created in Gitpod, go to GitHub Pages to make an early dep
 Validation of HTML/CSS, Lighthouse Audits, Bugs
 #### HTML Validation
 Some unclosed tags were found on the initial parse of HTML validation. These were resolved and subsequently no errors were found in either of the HTML files:
-![image](https://github.com/user-attachments/assets/6d099dd7-acc2-4ef8-874d-e2c7b2212b32)
+![HTMLValidation](https://github.com/user-attachments/assets/68bbd4ec-e6cb-465e-92f4-1879b37a36fa)
 
 #### CSS Validation
 No errors were found in the CSS file.
-![image](https://github.com/user-attachments/assets/9e1270a8-ad71-4871-b608-9a5ac5aa8e1c)
+![CSSValidation](https://github.com/user-attachments/assets/d26b76c8-3436-4ab4-9aa3-0901fa36a5f3)
 
 #### Lighthouse Audit
 A Lighthouse audit was conducted using the tool on Chrome Devtools after the first skeleton of the index page was built and deployed to GitHub. It is important to disable all extensions on the browser to obtain the correct performance results on response time. This provided some initial findings on loading time of images and colour compatability which was resolved before any further development.
