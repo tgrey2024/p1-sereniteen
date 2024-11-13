@@ -16,7 +16,7 @@
   </head>
 <body>
     <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">
         <img src="assets/images/logo.png" alt="logo" width="30px">Sereniteen</a>
@@ -32,20 +32,20 @@
           <a class="nav-link active" aria-current="page" href="resources.html">Resources</a>
           </li>
           <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#emergency" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Get Help
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Emergency</a></li>
+            <li><a class="dropdown-item" href="#emergency">Emergency</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Self-Help</a></li>
+            <li><a class="dropdown-item" href="#self-help">Self-Help</a></li>
             <li><a class="dropdown-item" href="#online">Online Resources</a></li>
-            <li><a class="dropdown-item" href="#online">Organisations</a></li>
+            <li><a class="dropdown-item" href="index.html#organisations">Organisations</a></li>
             <li><a class="dropdown-item" href="#professional-help">Professional Help</a></li>
           </ul>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#stories">Stories</a>
+          <a class="nav-link" href="index.html#stories">Stories</a>
           </li>
         </ul>
         </div>
@@ -53,85 +53,48 @@
       </nav>
       <!-- Header -->
       <!-- Hero Section -->
-      <header class="container-fluid hero-section text-center">
-        <h1 class="display-2">Sereniteen</h1>
-        <p>Tackling Anxiety Together: Understand, Support, Thrive</p>
-        <a href="#" class="btn btn-light btn-lg">Get Help Now</a>
-      </header>
-      <main>
-    <!-- Get Professional Help Content -->
-     <!-- Professional Help Accordion -->
-     <section id="professonal-help">
-      <div class="container-fluid section-light about">
-        <div class="row">
-          <div class="col-12 col-xl-7">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Cognitive Behavioral Therapy (CBT)
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>CBT is a type of talk therapy that helps people understand and change their negative thoughts and behaviors.</p>
-                    <p>It's a common treatment for anxiety and can help you develop coping strategies to manage anxious feelings.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    School Counsellors
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>School counsellors are mental health professionals who can provide support and guidance to students experiencing anxiety.</p>
-                    <p>They can help you develop coping strategies, navigate school challenges, and connect you with additional resources if needed.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Family Therapists
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>Family therapists work with families to improve communication, resolve conflicts, and strengthen relationships.</p>
-                    <p>If anxiety is impacting your family dynamics, a family therapist can help you work together to address the issue and support each other.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Online Therapy
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>Online therapy platforms offer convenient and accessible mental health support from licensed professionals.</p>
-                    <p>You can connect with a therapist via video chat, phone call, or messaging to receive personalised treatment for anxiety.</p>
-                    <p>Here are a few examples of online therapy platforms:</p>
-                    <ul>
-                        <li><a href="https://www.betterhelp.com" target="_blank" rel="noopener noreferrer">BetterHelp</a> - Offers online counseling with licensed therapists via video, phone, and messaging.</li>
-                        <li><a href="https://www.talkspace.com" target="_blank" rel="noopener noreferrer">Talkspace</a> - Provides therapy sessions through text, audio, and video messaging with licensed therapists.</li>
-                        <li><a href="https://www.7cups.com" target="_blank" rel="noopener noreferrer">7 Cups</a> - Offers free emotional support from trained listeners and affordable therapy with licensed professionals.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+        <header class="container-fluid hero-section text-center">
+          <section class="row">
+            <h1 class="display-2">Get Help</h1>
+            <p class="lead">Self-Help and Professional Help Explained</p>
+            <div class="text-center">
+            <a href="#emergency" class="btn btn-light btn-lg">Get Help Now</a>
             </div>
+          </section>
+        </header>
+      <main>
+    <!-- Emergency Section -->
+    <section id="emergency">
+      <div class="container-fluid section-light">
+        <div class="row text-center">
+          <div class="col-12">
+            <h4 class="display-6 my-4">Get Emergency Help</h4>
           </div>
-          <!-- Image -->
-          <div class="col-12 col-xl-5">
-            <img src="./assets/images/hero.jpg" alt="" class="img-fluid">
+         
+          <div class="col-12 col-md-4">
+            <a href="https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/" target="_blank" aria-label="NHS 111 for Urgent Mental Health situations (opens a new tab)">
+            <img src="./assets/images/NHS111.webp" alt="NHS Logo" class="rounded-circle img-fluid" width="150">
+            <p class="h5">NHS 111</p></a>
+            <p>If you need help for a mental health crisis or emergency, you should get immediate expert advice and assessment.</p>
           </div>
+          <div class="col-12 col-md-4">
+            <a href="https://www.youngminds.org.uk/young-person/shout-85258/" target="_blank" aria-label="Young Minds - Anxiety (opens a new tab)">
+              <img src="./assets/images/youngminds.webp" alt="Young Minds Logo" class="rounded-circle img-fluid" width="150">
+              <p class="h5">Young Minds</p>
+            </a>
+              <p>Text SHOUT to 85258 to get urgent help from Young Minds.</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="https://www.childline.org.uk/" target="_blank" aria-label="Childline (opens a new tab)">
+              <img src="./assets/images/childline.webp" alt="Childline Logo" class="rounded-circle img-fluid" width="150">
+              <p class="h5">Childline</p>
+            </a>
+              <p>Call for free on 0800 1111. Call for free on any phone and it won't show on the bill.</p>
+          </div>
+        </div>
       </div>
-     </section>
+      
+
      <!-- Get Help Section
       <section id="get-help">
         <div class="container-fluid section-dark get-help">
@@ -151,12 +114,11 @@
         </div>
 
       </section> -->
-    <!-- Resources Section -->
-      <section id="resources"  class="container-fluid section-dark">
-        <!-- Self-Help -->
+    <!-- Self-Help Section -->
+      <section id="self-help"  class="container-fluid section-dark">
         <div class="row">
           <div class="col-12">
-            <h4 class="display-4">Self-Help Activities</h4>
+            <h4 class="display-6 mt-4">Self-Help Activities</h4>
             <p>Try these self-help activities to manage anxiety and improve your well-being:</p>
           </div>
         <!-- Cards -->
@@ -222,13 +184,90 @@
           </div>
         </div>
       </section> 
+    <!-- Get Professional Help Content -->
+     <!-- Professional Help Accordion -->
+     <section id="professional-help">
+      <div class="container-fluid section-light about">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="display-6">Types of Professional Help</h4>
+            <p>There are various types of professional help available for managing anxiety, each offering unique approaches and benefits:</p>
+          </div>
+          <div class="col-12 col-xl-7">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Cognitive Behavioral Therapy (CBT)
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>CBT is a type of talk therapy that helps people understand and change their negative thoughts and behaviors.</p>
+                    <p>It's a common treatment for anxiety and can help you develop coping strategies to manage anxious feelings.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    School Counsellors
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>School counsellors are mental health professionals who can provide support and guidance to students experiencing anxiety.</p>
+                    <p>They can help you develop coping strategies, navigate school challenges, and connect you with additional resources if needed.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Family Therapists
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Family therapists work with families to improve communication, resolve conflicts, and strengthen relationships.</p>
+                    <p>If anxiety is impacting your family dynamics, a family therapist can help you work together to address the issue and support each other.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Online Therapy
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Online therapy platforms offer convenient and accessible mental health support from licensed professionals.</p>
+                    <p>You can connect with a therapist via video chat, phone call, or messaging to receive personalised treatment for anxiety.</p>
+                    <p>Here are a few examples of online therapy platforms:</p>
+                    <ul>
+                        <li><a href="https://www.betterhelp.com" target="_blank" rel="noopener noreferrer">BetterHelp</a> - Offers online counseling with licensed therapists via video, phone, and messaging.</li>
+                        <li><a href="https://www.talkspace.com" target="_blank" rel="noopener noreferrer">Talkspace</a> - Provides therapy sessions through text, audio, and video messaging with licensed therapists.</li>
+                        <li><a href="https://www.7cups.com" target="_blank" rel="noopener noreferrer">7 Cups</a> - Offers free emotional support from trained listeners and affordable therapy with licensed professionals.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image -->
+          <div class="col-12 col-xl-5">
+            <img src="./assets/images/therapy.webp" alt="Teenager speaking to his therapist in a therapy session" class="img-fluid">
+          </div>
+      </div>
+     </section>
       <!-- Footer -->
       <footer>
         <div class="container-fluid footer d-flex justify-content-between align-items-center">
-          <div class="text-center text-md-start">
+          <div class="text-center text-md-start m-4">
         <p class="mb-0">&copy; 2024 Sereniteen. All rights reserved.</p>
           </div>
-          <div class="text-center text-md-end">
+          <div class="text-center text-md-end m-4">
         <a href="https://www.facebook.com" class="text-light me-3" target="_blank" rel="noopener noreferrer"
         aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com" class="text-light me-3" target="_blank" rel="noopener noreferrer"

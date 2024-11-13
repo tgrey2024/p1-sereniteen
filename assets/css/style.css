@@ -30,6 +30,9 @@
 body {
     color: var(--calm-primary-color);
     font-family: var(--secondary-font);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1
@@ -45,7 +48,7 @@ h3 {
 }
 
 h4 {
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
     color: var(--highlight-color);
     font-family: var(--primary-font);
 }
@@ -60,11 +63,14 @@ p, h5, h6 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     background-color: var(--highlight-color);
+    border: var(--highlight-color);
 }
 /* Navbar */
 
 .navbar {
     background-color: var(--light-highlight-color);
+    padding-right: 2rem;
+    padding-top: 1rem;
 }
 
 .nav-link {
@@ -83,7 +89,7 @@ p, h5, h6 {
     background-size: cover;
     color: var(--dark-background-color);
     /* prevent navbar hiding section title*/
-    padding: 4rem 0 10px;
+    padding: 16rem 0 10px;
     min-height: 50vh;
 }
 
@@ -140,13 +146,47 @@ p, h5, h6 {
     margin: 10px;
 }
 
-/* Stories section */
-.stories {
-    padding: 15%;
+#resources a , #organisations a{
+    text-decoration: none;
 }
-.desc {
+
+#resources a:hover, #organisations a:hover {
+    color: var(--highlight-color); !important;
+}
+
+#resources p, #organisations p {
+    padding: 0 10%;
+}
+
+#resources .row, #organisations .row{
+    padding: 10%;
+}
+
+/* Stories section */
+.video-link {
+    display:none;
+}
+
+.carousel * {
+    background-color: #fff7ef;
     color: var(--secondary-color);
-    font-size: 1.6rem;
+    border-radius: 10px;
+}
+
+.stories {
+    align-content: center;
+}
+
+.story p {
+    color: var(--dark-background-color);
+    padding: 0 10%;
+}
+
+.get-help p{
+    color: var(--calm-primary-color);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-top: 1.3rem;
 }
 /* Cards section */
 .cards {
@@ -156,7 +196,7 @@ p, h5, h6 {
     padding: 5%;
 }
 
-#resources .card-text {
+#self-help .card-text {
     color: var(--secondary-color);
 }
 
@@ -172,3 +212,19 @@ p, h5, h6 {
 
 .footer p {
     color: var(--primary-color);}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .video {
+        display:none;
+    }
+
+    .video-link {
+        display: inline-block;
+    }
+
+    .video-link a {
+        text-decoration: none;
+        /* color: var(--highlight-color); */
+    }
+}
