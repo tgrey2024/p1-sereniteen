@@ -1,5 +1,4 @@
 # Project 1: Individual Project: Sereniteen - Teenage Anxiety Guide <a id="top"/>
-
 ![logo](https://github.com/user-attachments/assets/8c012545-402a-447f-a8b8-ba7bd7dc000d)
 
 ## Introduction
@@ -138,21 +137,48 @@ links to socials
 
 [Back to top](#top)
 ## Future Features
-### Contact Us
+### Bugs to be Fixed
+
 ### Share your Stories
-### Dimmer switch
+### Calm mode switch
 
 [Back to top](#top)
 
 ## Technologies Used
-### Languages
+### Languages and Technologies
+HTML5
+CSS3
+GitHub
+Gitpod
 ### Libraries
+Bootstrap 5.3.3
+Font Awesome
+Google Fonts
 ### Tools and Programs
+LogoAI
+Favicon.io
+
+Balsamiq
+Squoosh
+MS CoPilot
+GitHub CoPilot
 
 [Back to top](#top)
 
 ## Deployment
-Process for deploying to GitHub Pages
+The [Code Institute Template] (https://github.com/Code-Institute-Org/ci-full-template) was used to create the GitHub repository, so that the website could be developed in the correct setup of Gitpod IDE.
+
+The GitHub Copilot extension was also installed in my local client version of MS VS Code, which was also connected with the same GitHub repository and linked to Gitpod via SSH. This allows for AI pair programming in the initial stages of development to create certain sections faster.
+
+The process is as follows:
+1. Login to your GitHub profile.
+2. Go to the [Code Institute Template] (https://github.com/Code-Institute-Org/ci-full-template).
+3. Click **Use this template** and then **Create a new repository**.
+4. Enter the repo name and choose to create from template
+5. Click **Open** with the Gitpod logo to open the Code Institute IDE workspace.
+6. Open VS Code locally and click on Gitpod logo on the left. Click on right arrow next to the workspace you want to work on.
+ 
+Once the MVP has been created in Gitpod, go to GitHub Pages to make an early deployment of the project, so that testing can be done in Dev Tools to highlight key issues that need to be resolve early on in the project.
 
 [Back to top](#top)
 
@@ -162,7 +188,29 @@ Validation of HTML/CSS, Lighthouse Audits, Bugs
 [Back to top](#top)
 
 ## Credits
-Content References
-Media References
-Acknowledgements
+### Content References
+Anxiety and How to Manage it: Pre-teens and Teens - Raisingchildren.net
+[https://raisingchildren.net.au/pre-teens/mental-health-physical-health/stress-anxiety-depression/anxiety](https://raisingchildren.net.au/pre-teens/mental-health-physical-health/stress-anxiety-depression/anxiety)
+
+Parents A-z Mental Health Guide on Anxiety - Young Minds
+[https://www.youngminds.org.uk/parent/parents-a-z-mental-health-guide/anxiety/](https://www.youngminds.org.uk/parent/parents-a-z-mental-health-guide/anxiety/)
+
+MS Copilot was used to generate much of the content on coping strategies and online resources, which was then reviewed and edited before including into the site.
+
+### Media References
+
+#### Organisation logos:
+Young Minds - [https://www.youngminds.org.uk/](https://www.youngminds.org.uk/)
+Stem 4 [https://stem4.org.uk/](https://stem4.org.uk/)
+Anxiety UK - [https://www.anxietyuk.org.uk/about-us/](https://www.anxietyuk.org.uk/about-us/)
+NHS - [https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/](https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/)
+NSPCC - [https://www.nspcc.org.uk/](https://www.nspcc.org.uk/)
+
+#### Photos:
+Pexels
+
+#### Acknowledgements
+Many thanks to my three patient testers (also my husband and teenage children) for helping me test throughout development, and
+Code Institute tutors (Dillon, Mark and Roo) for answering my endless questions
+
 [Back to top](#top)
