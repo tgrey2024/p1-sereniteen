@@ -22,6 +22,7 @@ Live site: [Sereniteen](https://tgrey2024.github.io/p1-sereniteen/)
 - [Website Features](#website-features)
     - [Nav Bar](#nav-bar)
     - [Hero Section](#hero-section)
+    - [Bootstrap Accordions](#bootstrap-accordions)
     - [Bootstrap Cards](#bootstrap-cards)
     - [Bootstrap Carousel](#bootstrap-carousel)
     - [Video](#video)
@@ -127,7 +128,7 @@ The aim of the project is to provide a calm environment that would be suited to 
 
 ![ColourPalette](https://github.com/user-attachments/assets/ade7bbde-7ade-4a25-9307-709d9f75d11d)
 
-After the initial Lighthouse audit, some of the colours were adjusted for better contrast and readability:
+After the initial Lighthouse audit, I checked some of the colour combinations on [WCAG Contrast Checker]([https://chromewebstore.google.com/detail/wcag-color-contrast-check](https://webaim.org/resources/contrastchecker/), and they were adjusted for better contrast and readability:
 
 ![Contrast](https://github.com/user-attachments/assets/3cdb157d-19e3-470d-9462-34c21215ec3a)
 
@@ -140,30 +141,54 @@ Because both teenagers and their parents are in the userbase, a more distinct an
 ![Font](https://github.com/user-attachments/assets/5702b1b8-7a3f-425a-a2aa-6d7fd6a3fd6a)
 
 ### Imagery
-Initially I experimented with using MS Copilot to generate most of the images. The results were not very reliable and the process of refining prompts was taking too long, so I went to Pexels and found all of the photos from their photo library. The search function did not work well to bring back too many results, but there are additional tags in the search results page which open up the search and direct you to more photos.
+Initially I experimented with using MS Copilot to generate most of the images. The results were not very reliable and the process of refining prompts was taking too long, so I went to Pexels and found all of the photos from their photo library. The search function did not work well to bring back too many results, but there are additional tags in the search results page which open up the search and direct you to more photos. I found a range of photos showing a diverse range of ages, race and background with teenagers. Most of these were reduced in filesize and optimised on Squoosh and save as WEBP format to reduce page loading time.
 
-I found a range of photos showing a diverse range of ages, race and background with teenagers. Most of these were reduced in filesize and optimised on Squoosh and save as WEBP format to reduce page loading time.
+The use of higher quality and slightly more stylised photos in muted tones would compliment the site design and appeal to teenagers who are more accustomed to visual apps like Instagram and Snapchat.
+![anxiousboy](https://github.com/user-attachments/assets/d4ea4655-1d18-4171-b2ba-519c2da8e173)
+
+![meditate](https://github.com/user-attachments/assets/3dd33d2a-7ad0-4c57-b968-717634a93b37)
+
+![exercise](https://github.com/user-attachments/assets/1c162746-1b3e-445a-b030-35a470f37284)
 
 ## Website Features
 ### Nav bar
-Home, Getting Help, Resources, Contact Us
-### Hero Section
-### Bootstrap Accordion
-- what is Anxiety, Common Symptoms, Common Triggers: Social Media, Exams, Peer Pressure
-### Bootstrap Cards
-- Coping Strategies, Activities
-- Online Resources, Self-Help Apps, Organisation
-### Video
-### Bootstrap Carousel
-short stories
-### Bootstrap Toggle button
-To switch between the two colour schemes
+The aim of the product is to provide users with beginner-friendly summary of anxiety and quick access to get help or resources from reputable, reliable organisations. The navigation therefore must be:
+- prominent and consistent on every page
+- easy to use
+- lead users directly in fewer than 3 clicks to what they need.
 
-### Getting Help
-#### Types of Professional Help
+The Bootstrap navbar has been used as it is responsive to different screen sizes, it has a dropdown to provide users with more options, and it shrinks down to a hamburger menu button on the smaller screens.
+
+Adjustments:
+- Background colour using #a22101;
+- Dark Theme (data-bs-theme: dark) for better contrast on Navbar text
+
+### Hero Section
+The purpose of the hero section is to convey the purpose of Sereniteen and the site. The chosen image portrays a struggling teen feeling along and needing help, something that users of the site might be able to relate to. The tagline contrasts in colour and message with this image to drive home the purpose of the site, which a call to action button to "Get Help Now".
+![Hero](https://github.com/user-attachments/assets/0102cb13-19be-4a8b-acdb-9ea292026f2f)
+
+### Bootstrap Accordions
+#### Basic Facts and Types of Professional Help
+I chose to summarise the key facts in a Bootstrap Accordion above the fold. This gives a first-time visitor to the site a snapshot of what to expect from this site and the kind of information they would expect to find. The accordion contains the key questions a user might ask on the index page, and on the resources page another accordion is used to show different types of professional help users might consider getting. The accordion stays within its section and collapses when a new question button is chosen.
+
+### Bootstrap Cards
+#### Self-Help Activities
+Bootstrap Cards have been used to show the wide range of self-help activities and coping strategies that are available for teens to manage their anxiety and reduce stress. The call to action buttons on each card use the highlight orange colour and contain a positive message in the form of "Let's ..." to tell users that they are not doing this alone. These link to external online resources to open in a new tab.
+
+### Video
+A YouTube video has been embedded in the index page in the Shared Stories section. This video is from a TedxYouth talk by a teenager describing his experience of anxiety and strategies he uses to cope with anxiety. The video provides a richer content experience for the user, and perhaps draw strength from watching someone describe similar symptoms and overcoming their struggles.
+
+The video does not work so well on the page on screens smaller than 380px, so a media query applies so that it could be replaced by a link to the video on YouTube on smaller screens.
+
+### Bootstrap Carousel
+A Bootstrap Slide-only Carousel has been implemented to show the different success stories shared by users.
+
+Adjustments:
+- Background colour
+- Dark Theme for better contrast on Navbar text
 
 ### Footer
-links to socials
+The footer uses darker tones from the palette to ground the page. It includes the copyright information and links to social media like Facebook, Instagram and X.
 
 [Back to top](#top)
 ## Responsive Design
