@@ -31,11 +31,7 @@ Live site: [Sereniteen](https://tgrey2024.github.io/p1-sereniteen/)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
 - [Testing](#testing)
-- [credits](#credits)
-
-Content References
-Media References
-Acknowledgements
+- [Credits](#credits)
 
 [Back to top](#top)
 
@@ -128,14 +124,25 @@ US11. As a teenager undergoing stress or as a parent of one, I want to find acti
 ## Design
 ### Colour Scheme
 The aim of the project is to provide a calm environment that would be suited to both teenage users and their parents. I took inspiration from the colours from my garden and used ColorSpace to derive a calm and subtle palette.
-![ColourPalette](https://github.com/user-attachments/assets/1740d9a4-81c3-4e29-b261-a9e51a4403f0)
+
+![ColourPalette](https://github.com/user-attachments/assets/ade7bbde-7ade-4a25-9307-709d9f75d11d)
+
+After the initial Lighthouse audit, some of the colours were adjusted for better contrast and readability:
+
+![Contrast](https://github.com/user-attachments/assets/3cdb157d-19e3-470d-9462-34c21215ec3a)
 
 
 ### Typography
-Content of the subheading 3
+[Google Fonts](https://fonts.google.com/) have been used as these are convenient to embed into the CSS file as an @import. 
+
+Because both teenagers and their parents are in the userbase, a more distinct and handwritten font ([Gloria Hallelujah](https://fonts.google.com/specimen/Gloria+Hallelujah)) was chosen as the primary font, which helps to keep the reader at ease and imply that this is a site about young adults without it looking too childlike. In addition, a calmer and more open typeface ([Open Sans](https://fonts.google.com/specimen/Open+Sans)) was chosen to complement it to convey credibility and warmth while being a sans-serif font makes it quicker and easier to read.
+
+![Font](https://github.com/user-attachments/assets/5702b1b8-7a3f-425a-a2aa-6d7fd6a3fd6a)
 
 ### Imagery
-Content of the subheading 3
+Initially I experimented with using MS Copilot to generate most of the images. The results were not very reliable and the process of refining prompts was taking too long, so I went to Pexels and found all of the photos from their photo library. The search function did not work well to bring back too many results, but there are additional tags in the search results page which open up the search and direct you to more photos.
+
+I found a range of photos showing a diverse range of ages, race and background with teenagers. Most of these were reduced in filesize and optimised on Squoosh and save as WEBP format to reduce page loading time.
 
 ## Website Features
 ### Nav bar
