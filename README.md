@@ -135,11 +135,14 @@ Because both teenagers and their parents are in the userbase, a more distinct an
 Initially I experimented with using MS Copilot to generate most of the images. The results were not very reliable and the process of refining prompts was taking too long, so I went to Pexels and found all of the photos from their photo library. The search function did not work well to bring back too many results, but there are additional tags in the search results page which open up the search and direct you to more photos. I found a range of photos showing a diverse range of ages, race and background with teenagers. Most of these were reduced in filesize and optimised on Squoosh and save as WEBP format to reduce page loading time.
 
 The use of higher quality and slightly more stylised photos in muted tones would compliment the site design and appeal to teenagers who are more accustomed to visual apps like Instagram and Snapchat.
-![anxiousboy](https://github.com/user-attachments/assets/d4ea4655-1d18-4171-b2ba-519c2da8e173)
+
+![anxiousboy](https://github.com/user-attachments/assets/192737a1-1977-450b-95b0-d4dd0135542f)
 
 ![meditate](https://github.com/user-attachments/assets/3dd33d2a-7ad0-4c57-b968-717634a93b37)
 
-![exercise](https://github.com/user-attachments/assets/1c162746-1b3e-445a-b030-35a470f37284)
+![family](https://github.com/user-attachments/assets/2e5cd7e7-e49e-410b-9a4f-b9d0df3c07d7)
+
+![breathe](https://github.com/user-attachments/assets/2ad21648-a56a-4007-acd3-50d9fff85b7e)
 
 ## Website Features
 ### Nav bar
@@ -194,9 +197,10 @@ Video: Some elements such as the embedded YouTube video take up too much space o
 
 ## Future Features
 ### Bugs to be Fixed
-* A review of spacing, margins and padding to make sure each element has well-placed on the page with plenty of breathing space
 * A gap appears on the right on the medium-sized devices
+* A review of spacing, margins and padding to make sure each element has well-placed on the page with plenty of breathing space
 * Scrolling can sometimes move the navbar up and down
+* Add more content on how to cope with specific stressors, like exams, social media, peer pressure and bullying.
 * Links to more activity guides, checklists and questionnaire could be added.
   
 ### Calm mode switch
