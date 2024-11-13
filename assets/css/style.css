@@ -94,7 +94,7 @@ p, h5, h6 {
 }
 
 .hero-section h1 {
-    columns: var(--light-highlight-color);
+    color: var(--light-highlight-color);
 }
 
 .hero-section p {
@@ -141,7 +141,6 @@ p, h5, h6 {
 
 /* Get Help Section */
 .get-help img {
-    padding: auto;
     width: 100%;
     margin: 10px;
 }
@@ -151,7 +150,7 @@ p, h5, h6 {
 }
 
 #resources a:hover, #organisations a:hover {
-    color: var(--highlight-color); !important;
+    color: var(--highlight-color);
 }
 
 #resources p, #organisations p {
@@ -165,6 +164,10 @@ p, h5, h6 {
 /* Stories section */
 .video-link {
     display:none;
+}
+
+.video iframe{
+    border: none;
 }
 
 .carousel * {
