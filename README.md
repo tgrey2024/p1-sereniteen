@@ -203,13 +203,7 @@ Video: Some elements such as the embedded YouTube video take up too much space o
 [Back to top](#top)
 
 ## Future Features
-### Bugs to be Fixed
-* A gap appears on the right on the medium-sized devices
-* A review of spacing, margins and padding to make sure each element has well-placed on the page with plenty of breathing space
-* Scrolling can sometimes move the navbar up and down
-* Add more content on how to cope with specific stressors, like exams, social media, peer pressure and bullying.
-* Links to more activity guides, checklists and questionnaire could be added.
-  
+ 
 ### Calm mode switch
 A Bootstrap switch could be added to the navbar to switch between a vibrant colour theme that would appeal to teens and a calmer alternative scheme that would make it easier for the reader if the colours are too stimulating. The current colour scheme is set in CSS variables, which could be leveraged to reset the colours between the two themes, but a page refresh needs to be triggered by the click event of the switch.
 
@@ -277,6 +271,14 @@ Get Help (resources.html) on mobile devices:
 ![resources_mobile](https://github.com/user-attachments/assets/1d846b82-6c69-4d47-a009-9ba15f38cbed)
 
 Similar scores were obtained on the audits for desktops. Aside from warnings about minor delays caused by the incorporation of links to Bootstrap, Google Fonts, etc., the main improvement that could be implemented is on the images, particularly on the tradeoff between quality and reduced filesize to reduce loading time.
+
+### Bugs yet to be Fixed
+* A gap appears on the right on the medium-sized devices
+* A review of spacing, margins and padding to make sure each element has well-placed on the page with plenty of breathing space
+* Scrolling can sometimes move the navbar up and down
+* Add more content on how to cope with specific stressors, like exams, social media, peer pressure and bullying.
+* Links to more activity guides, checklists and questionnaire could be added.
+ 
 
 [Back to top](#top)
 
