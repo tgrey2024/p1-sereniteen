@@ -223,7 +223,7 @@ Validation of HTML/CSS, Lighthouse Audits, Bugs
 Some unclosed tags were found on the initial parse of HTML validation. These were resolved and subsequently no errors were found in either of the HTML files:
 ![image](https://github.com/user-attachments/assets/6d099dd7-acc2-4ef8-874d-e2c7b2212b32)
 
-####CSS Validation
+#### CSS Validation
 No errors were found in the CSS file.
 ![image](https://github.com/user-attachments/assets/9e1270a8-ad71-4871-b608-9a5ac5aa8e1c)
 
