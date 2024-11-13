@@ -11,11 +11,9 @@ Live site: [Sereniteen](https://tgrey2024.github.io/p1-sereniteen/)
 - [Project Brief](#project-brief)
 - [Users](#users)
     - [User Stories](#user-stories)
-    - [Colour Scheme](#colour-scheme)
-    - [Typography](#typography)
     - [Wireframes](#wireframes)
 - [Design](#design)
-    - [Colour Scheme](#colour-scheme) 
+    - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Imagery](#imagery)
 - [Website Features](#website-features)
@@ -23,8 +21,8 @@ Live site: [Sereniteen](https://tgrey2024.github.io/p1-sereniteen/)
     - [Hero Section](#hero-section)
     - [Bootstrap Accordions](#bootstrap-accordions)
     - [Bootstrap Cards](#bootstrap-cards)
-    - [Bootstrap Carousel](#bootstrap-carousel)
     - [Video](#video)
+    - [Bootstrap Carousel](#bootstrap-carousel)
     - [Footer](#footer)
 - [Responsive Design](#responsive-design)
 - [Future Features](#future-features)
@@ -49,23 +47,18 @@ Potential users of the site are:
 Co-pilot was used to generate some personas, which were then reviewed and refined to enrich the analysis of users and their requirements:
 
 ##### Persona 1: Jake, The Anxious Teenager, Age: 16, Occupation: Year 11 Student, Tech Comfort: High
-
 Background: Jake is a secondary school student who excels academically but struggles with social anxiety. He often feels overwhelmed and is looking for ways to manage his stress and anxiety.
-
 Goals:
         * Learn effective coping mechanisms for anxiety.
         * Access resources and tools specifically designed for teenagers.
         * Find relatable stories and experiences from other teens dealing with anxiety.
-
 Challenges:
         * Feeling embarrassed or reluctant to seek help from adults.
         * Difficulty concentrating on long articles or technical content.
 
 
 #### Persona 2: Sarah, The Concerned Parent, Age: 42, Occupation: Full-Time Working Mum, Tech Comfort: Moderate
-
 Background: Sarah is a dedicated mother of two teenagers. She has noticed that her 16-year-old daughter has been more anxious lately and wants to find reliable resources to help her cope.
-
 Goals:
         * Find practical tips and strategies to help her daughter manage anxiety.
         * Access easy-to-understand information on the causes and symptoms of anxiety.
@@ -74,21 +67,19 @@ Challenges:
         * Limited time due to her teaching job and family responsibilities.
         * Overwhelmed by the vast amount of information online and unsure of its credibility.
 
-
-#### Persona 4: Anna, The Supportive Friend, Age: 17 Occupation: Sixth-form Student, Tech Comfort: Moderate
-
+#### Persona 3: Anna, The Supportive Friend, Age: 17 Occupation: Sixth-form Student, Tech Comfort: Moderate
 Background: Anna is a supportive friend who wants to help her best friend, who has recently opened up about their anxiety struggles. Anna is eager to find ways to be there for her friend.
-
 Goals:
         * Learn about anxiety and how to support a friend dealing with it.
         * Find tips and advice on how to approach conversations about mental health.
         * Access resources that she can share with her friend.
-
 Challenges:
         * Ensuring she provides accurate and helpful support without overstepping boundaries.
 
 ### User Stories
-User Stories and the associated Acceptance Criteria and Tasks were generated using Microsoft Copilot. These were then reviewed and edited to be SMART and focused for the delivery of an MVP. A Project Board was set up in GitHub Projects to track project progress, and the user stories were prioritised using MoSoCoW.
+User Stories and the associated Acceptance Criteria and Tasks were generated using Microsoft Copilot. 
+
+The aim is to produce a minimum viable product (MVP) in the 2.5 days given. The AI-generated user stories were reviewed and edited to be SMART and focused for the delivery of an MVP. A Project Board was set up in GitHub Projects to track project progress. The user stories were prioritised using MoSoCoW based of benefits to users and viability.
 
 Here are the user stories that have been prioritised as "must have":
 
@@ -121,6 +112,7 @@ US11. As a teenager undergoing stress or as a parent of one, I want to find acti
 ![wf-browser](https://github.com/user-attachments/assets/84f15a5d-8d09-4f55-bb15-49d03aedbe05)
 
 [Back to top](#top)
+
 ## Design
 ### Colour Scheme
 The aim of the project is to provide a calm environment that would be suited to both teenage users and their parents. I took inspiration from the colours from my garden and used ColorSpace to derive a calm and subtle palette.
@@ -187,9 +179,10 @@ Adjustments:
 - Dark Theme for better contrast on Navbar text
 
 ### Footer
-The footer uses darker tones from the palette to ground the page. It includes the copyright information and links to social media like Facebook, Instagram and X.
+The footer uses darker tones from the palette to ground the page. It includes the copyright information and links to social media like Facebook, Instagram and X. This was initially created using inline GitHub Copilot prompt, which provided code that fulfilled most of the requirements.
 
 [Back to top](#top)
+
 ## Responsive Design
 Most of the content is responsive to different screen sizes as it was built using components from the Bootstrap Library.
 ![responsive](https://github.com/user-attachments/assets/9106ac90-025b-465c-944e-69f8bdfede3e)
@@ -201,11 +194,14 @@ Video: Some elements such as the embedded YouTube video take up too much space o
 
 ## Future Features
 ### Bugs to be Fixed
+* A review of spacing, margins and padding to make sure each element has well-placed on the page with plenty of breathing space
 * A gap appears on the right on the medium-sized devices
 * Scrolling can sometimes move the navbar up and down
 * Links to more activity guides, checklists and questionnaire could be added.
+  
 ### Calm mode switch
 A Bootstrap switch could be added to the navbar to switch between a vibrant colour theme that would appeal to teens and a calmer alternative scheme that would make it easier for the reader if the colours are too stimulating. The current colour scheme is set in CSS variables, which could be leveraged to reset the colours between the two themes, but a page refresh needs to be triggered by the click event of the switch.
+
 ### Share your Stories
 A modal could be added to allow users to submit stories to be shared with others who are managing their anxiety. Testimonials and success stories can give hope to parents and teenagers to help them with their recovery.
 
@@ -262,18 +258,13 @@ No errors were found in the CSS file.
 A Lighthouse audit was conducted using the tool on Chrome Devtools after the first skeleton of the index page was built and deployed to GitHub. It is important to disable all extensions on the browser to obtain the correct performance results on response time. This provided some initial findings on loading time of images and colour compatability which was resolved before any further development.
 
 The final deployment was audited again on Lighthouse on both mobile devices and desktop.
-Index.html:
-On mobile devices:
-![image](https://github.com/user-attachments/assets/efa74bd7-d1ea-4b3b-beef-bb27c969e36e)
-On desktop:
-![image](https://github.com/user-attachments/assets/d280e940-f2ec-4dbd-927d-e2cff57089c0)
+Index.html on mobile devices:
+![index_mobile](https://github.com/user-attachments/assets/a12b44c0-8a41-401c-9097-948e59ee8088)
 
-Get Help (resources.html)
-On mobile devices:
-![image](https://github.com/user-attachments/assets/1c0c22e7-bfb0-476a-9752-cc8ac3e2d8e7)
+Get Help (resources.html) on mobile devices:
+![resources_mobile](https://github.com/user-attachments/assets/1d846b82-6c69-4d47-a009-9ba15f38cbed)
 
-On desktop:
-![image](https://github.com/user-attachments/assets/8d20d3cc-b46e-40d0-8201-803a4fe7a989)
+Similar scores were obtained on the audits for desktops. Aside from warnings about minor delays caused by the incorporation of links to Bootstrap, Google Fonts, etc., the main improvement that could be implemented is on the images, particularly on the tradeoff between quality and reduced filesize to reduce loading time.
 
 [Back to top](#top)
 
@@ -297,10 +288,11 @@ MS Copilot was used to generate much of the content on coping strategies and onl
 * NSPCC - [https://www.nspcc.org.uk/](https://www.nspcc.org.uk/)
 
 #### Photos:
-* Pexels
+* Pexels - [https://www.pexels.com/](https://www.pexels.com/)
 
 #### Acknowledgements
-Many thanks to my three patient testers (also my husband and teenage children) for helping me test throughout development, and
+Many thanks to my three patient testers (also my husband and teenage children) for helping me test throughout development, 
+Everyone in my WECA group who have been so helpful and supportive leading up to this project, and
 Code Institute tutors (Dillon, Mark and Roo) for answering my endless questions
 
 [Back to top](#top)
